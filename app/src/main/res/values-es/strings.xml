@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parcial1</string>
+    <string name="company_text">Nombre Empresa</string>
+    <string name="summary_text">Resumen</string>
+    <string name="accounts_text">Cuentas</string>
+    <string name="incomes_text">Ingresos</string>
+    <string name="expenses_text">Gastos</string>
+    <string name="stock">Inventario</string>
+    <string name="title_activity_summary">Summary</string>
+</resources>

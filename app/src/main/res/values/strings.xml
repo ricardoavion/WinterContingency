@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Parcial1</string>
+    <string name="company_text">Company Name</string>
+    <string name="summary_text">Summary</string>
+    <string name="accounts_text">Accounts</string>
+    <string name="incomes_text">Incomes</string>
+    <string name="expenses_text">Expenses</string>
+    <string name="stock">Stock</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_stock">Stock</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
