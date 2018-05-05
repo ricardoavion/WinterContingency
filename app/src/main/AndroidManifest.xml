@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Stock"
+            android:name=".Activities.Stock"
             android:label="@string/title_activity_stock" />
+        <activity android:name=".Activities.ContenedorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            >
+        </activity>
     </application>
-
+    <!--android:configChanges="orientation|keyboardHidden|screenSize"-->
 </manifest>

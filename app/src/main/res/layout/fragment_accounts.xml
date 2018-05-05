@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avion.funciona.Fragments.FragmentAccounts"
+    android:id="@+id/fragmentAccounts"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearpadre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryLight"
+            >
+
+
+            <TextView
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ACOUNTSSSSSSSSSS"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

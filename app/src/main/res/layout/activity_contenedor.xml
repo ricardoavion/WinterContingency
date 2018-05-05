@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avion.funciona.Activities.ContenedorActivity"
+    android:id="@+id/activityContenedor"
+    >
+
+    <fragment
+        android:id="@+id/contenedor2"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.example.avion.funciona.Fragments.Selects"
+        android:name="com.example.avion.funciona.Fragments.Selects"
+        tools:layout="@layout/fragment_selects"
+        >
+    </fragment>
+
+
+</android.support.constraint.ConstraintLayout>
