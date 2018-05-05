@@ -81,7 +81,7 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
                 }//verificando si estoy en landscape
                 else{
                     fr.replace(R.id.landscape2, new FragmentAccounts());
-                    //fr.addToBackStack(null);
+                    fr.addToBackStack(null);
                     fr.commit();
                     break;
                 }
@@ -95,7 +95,7 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
                 }//verificando si estoy en landscape
                 else{
                     fr.replace(R.id.landscape2, new FragmentIncomes());
-                    //fr.addToBackStack(null);
+                    fr.addToBackStack(null);
                     fr.commit();
                     break;
                 }
@@ -109,7 +109,7 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
                 }//verificando si estoy en landscape
                 else{
                     fr.replace(R.id.landscape2, new FragmentExpenses());
-                    //fr.addToBackStack(null);
+                    fr.addToBackStack(null);
                     fr.commit();
                     break;
                 }
@@ -123,7 +123,7 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
                 }//verificando si estoy en landscape
                 else{
                     fr.replace(R.id.landscape2, new FRagmentStock());
-                    //fr.addToBackStack(null);
+                    fr.addToBackStack(null);
                     fr.commit();
                     break;
                 }
