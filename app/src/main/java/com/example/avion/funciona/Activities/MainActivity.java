@@ -25,6 +25,7 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //-------------------------------------
         //declarando los linearlayouts y diciendoles que al dar click se vayan al metodo onClick
         LinearLayout summary = (LinearLayout) findViewById(R.id.summary_portrait);
@@ -44,14 +45,6 @@ View.OnClickListener,FRagmentStock.OnFragmentInteractionListener{
     public void onFragmentInteraction(Uri uri) {
 
     }
-
-
-    /*public void StockPortClick(View view){
-        Intent stock_intent = new Intent(this, Stock.class);
-        startActivity(stock_intent);
-        //posiblemente cambiar esta linea por lo de abajo
-    }
-*/
 
     @Override
     public void onClick(View v) {

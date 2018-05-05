@@ -10,10 +10,22 @@
     >
 
         <fragment
+            android:layout_margin="4dp"
+            android:id="@+id/landscape2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            class="com.example.avion.funciona.Fragments.Selects"
+            android:name="com.example.avion.funciona.Fragments.Selects"
+            tools:layout="@layout/fragment_selects"
+            >
+        </fragment>
+
+        <fragment
             android:id="@+id/landscape1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:name="com.example.avion.funciona.Fragments.Menus"
             class="com.example.avion.funciona.Fragments.Menus"
             tools:layout="@layout/fragment_menus"
